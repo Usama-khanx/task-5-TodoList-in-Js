@@ -3,9 +3,50 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>TODO list in js</title>
+    <title>Todo list in js</title>
 </head>
 <body>
-    <h1>hello</h1>
+    <h1>The Dom Adding Nodes</h1>
+    <h2>To do list</h2>
+
+
+    <input type="text" placeholder="Enter some Text" id="input">
+    <button id="add_btn" onclick="addTask();">Add tast</button>
+
+    <ul id="ul_list">
+
+    </ul>
+
+
+
+    <!-- <script>
+        function addTask(){
+            var btn = document.getElementById("add_btn")
+            var input = document.getElementById("input");
+            var list = document.getElementById("ul_list");
+            // create a new elemet li in ul
+            var toAddLi  = document.createElement("li");
+
+            // create a remove btn 
+            var removebtn = document.createElement('button')
+            removebtn.textContent = 'Remove'
+            toAddLi.textContent = input.value;
+
+            removebtn.onclick = function(){
+                list.removeChild('li')
+            }
+            
+            
+            if (toAddLi.textContent.trim() === ''){
+                alert("Empty list not allowed")
+            }
+            else{
+                
+                list.appendChild(toAddLi)
+                list.appendChild(removebtn);
+            }
+        }
+       
+    </script> -->
 </body>
 </html>
