@@ -11,7 +11,7 @@ body{
 
     background-color: antiquewhite;
 }
-/*
+
 .container{
     display: flex;
    flex-direction: column;
@@ -42,7 +42,7 @@ body{
 #input:focus{
     border-color: rgb(48, 231, 20);
 }
-
+/*
 #add_btn{
     background-color: blue;
     color: white;
