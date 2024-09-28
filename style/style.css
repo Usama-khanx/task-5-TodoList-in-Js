@@ -65,6 +65,13 @@ body{
    margin-left: auto;
 
 }
+.removeBtn:hover{
+    background-color: red;
+    color: white;
+}
+.removeBtn:focus{
+   border: 2px solid white;
+}
 ul{
    
     width: 90%;
