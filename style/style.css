@@ -52,6 +52,13 @@ body{
 
    
 }
+#add_btn:hover{
+  border-color: white;
+  
+}
+#add_btn:focus{
+   background-color: black;
+  }
 
 .removeBtn {
     color: white;
